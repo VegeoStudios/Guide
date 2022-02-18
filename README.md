@@ -3,6 +3,16 @@
 ## General Naming Rules
 In general, naming should be understandable to the reader. Take priority of readability over length of the name.
 Do not use abbriviations unless it is known within the team or understanable from the context. Declaring variables that abbreviate the type name are alright.
+Name length should be proportional to the scope. For example, global variables should have a descriptive name to make sure it is clear what the purpose is.
+```c++
+double Sqrt(double x);
+int Length(const char* p);
+
+int LengthOfString(const char zeroTerminatedArrayOfChar[])    // bad: verbose
+
+int g;      // bad: global variable with a cryptic name
+int open;   // bad: global variable with a short, popular name
+```
 
 ## File Names
 filenames should be camelCase with underscores separating components of the name.
