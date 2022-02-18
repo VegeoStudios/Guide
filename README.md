@@ -70,4 +70,4 @@ This is my
 multi-line comment
 */
 ```
-Make sure to do your own text wrapping in a multi-line comment so that your comments do not extend past surrounding code.
+Make sure to do your own text wrapping in a multi-line comment reasonably. You shouldn't have to scroll horizontally in your IDE to read comments.
