@@ -69,15 +69,3 @@ If you are writing something that is analogous to an existing C++ entity, follow
 my_hash_map //Follows STL naming conventions
 ```
 
-## Comment Style
-Single line comments should use `//` unless following consistency of other code.
-Multi-line comments should ALWAYS use `/* */` on seperate lines to your comments.
-```c++
-// This is my single line comment
-
-/*
-This is my
-multi-line comment
-*/
-```
-Make sure to do your own text wrapping in a multi-line comment reasonably. You shouldn't have to scroll horizontally in your IDE to read comments.
